@@ -42,7 +42,7 @@ Domain Path: /languages
 	
 	/**
 	* Proper way to enqueue JS 
-	
+	*/
 	function pegasus_callout_plugin_js() {
 		
 		wp_enqueue_script( 'slippery-js', trailingslashit( plugin_dir_url( __FILE__ ) ) . 'js/slippery.js', array( 'jquery' ), null, true );
