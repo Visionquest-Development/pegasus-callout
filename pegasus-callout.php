@@ -49,7 +49,7 @@ Domain Path: /languages
 		wp_enqueue_script( 'pegasus-callout-plugin-js', trailingslashit( plugin_dir_url( __FILE__ ) ) . 'js/plugin.js', array( 'jquery' ), null, true );
 		
 	} //end function
-	add_action( 'wp_enqueue_scripts', 'pegasus_callout_plugin_js' ); */
+	add_action( 'wp_enqueue_scripts', 'pegasus_callout_plugin_js' ); 
 
 	
 	/*~~~~~~~~~~~~~~~~~~~~
