@@ -35,21 +35,9 @@ Domain Path: /languages
 	function pegasus_callout_plugin_styles() {
 		
 		wp_enqueue_style( 'callout-plugin-css', trailingslashit( plugin_dir_url( __FILE__ ) ) . 'css/callout.css', array(), null, 'all' );
-		//wp_enqueue_style( 'slippery-slider-css', trailingslashit( plugin_dir_url( __FILE__ ) ) . 'css/slippery-slider.css', array(), null, 'all' );
 		
 	}
 	add_action( 'wp_enqueue_scripts', 'pegasus_callout_plugin_styles' );
-	
-	/**
-	* Proper way to enqueue JS 
-	*/
-	function pegasus_callout_plugin_js() {
-		
-		wp_enqueue_script( 'slippery-js', trailingslashit( plugin_dir_url( __FILE__ ) ) . 'js/slippery.js', array( 'jquery' ), null, true );
-		wp_enqueue_script( 'pegasus-callout-plugin-js', trailingslashit( plugin_dir_url( __FILE__ ) ) . 'js/plugin.js', array( 'jquery' ), null, true );
-		
-	} //end function
-	add_action( 'wp_enqueue_scripts', 'pegasus_callout_plugin_js' ); 
 
 	
 	/*~~~~~~~~~~~~~~~~~~~~
