@@ -3,14 +3,9 @@ Use this for "Call To Actions" and special text you want to place at the top bel
 
 ## Usage
 How to use in your WordPress site<br>
-`[callout button="yes" link="http://example.com" external="yes" color="white" link_text="Learn More" 
-background="http://www.wpfreeware.com/themes/html/appstation/img/download_bg.png"]
-<p>Get your copy now!Suspendisse vitae bibendum mauris. Nunc iaculis nisl vitae laoreet elementum donec dignissim metus sit.</p>
-[/callout]`
+`[callout button="yes" link="http://example.com" external="yes" color="white" link_text="Learn More" background="http://www.wpfreeware.com/themes/html/appstation/img/download_bg.png"]<p>Get your copy now!Suspendisse vitae bibendum mauris. Nunc iaculis nisl vitae laoreet elementum donec dignissim metus sit.</p>[/callout]`
 Or
-`[callout button="yes" link="http://example.com" color="black" external="yes" backgroundcolor="#dedede"]
-<h2>Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Donec sollicitudin molestie malesuada. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Donec sollicitudin molestie malesuada. Nulla porttitor accumsan tincidunt. Nulla porttitor accumsan tincidunt. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.</h2>
-[/callout]`
+`[callout button="yes" link="http://example.com" color="black" external="yes" backgroundcolor="#dedede"]<h2>Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Donec sollicitudin molestie malesuada. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Donec sollicitudin molestie malesuada. Nulla porttitor accumsan tincidunt. Nulla porttitor accumsan tincidunt. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.</h2>[/callout]`
 Shortcode Attributes: http://pegasustheme.com/pegasus-callout/
 
 
