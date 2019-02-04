@@ -13,7 +13,7 @@ Domain Path: /languages
 */
 	
 	function pegasus_callout_menu_item() {
-		add_menu_page("Callout", "Callout", "manage_options", "pegasus_callout_plugin_options", "pegasus_callout_plugin_settings_page", null, 99);
+		//add_menu_page("Callout", "Callout", "manage_options", "pegasus_callout_plugin_options", "pegasus_callout_plugin_settings_page", null, 99);
 		
 	}
 	add_action("admin_menu", "pegasus_callout_menu_item");
