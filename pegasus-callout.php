@@ -33,8 +33,8 @@ Domain Path: /languages
 	}
 	
 	function pegasus_callout_plugin_styles() {
-		
-		wp_enqueue_style( 'callout-plugin-css', trailingslashit( plugin_dir_url( __FILE__ ) ) . 'css/callout.css', array(), null, 'all' );
+
+		wp_register_style( 'callout-plugin-css', trailingslashit( plugin_dir_url( __FILE__ ) ) . 'css/callout.css', array(), null, 'all' );
 		
 	}
 	add_action( 'wp_enqueue_scripts', 'pegasus_callout_plugin_styles' );
@@ -84,7 +84,8 @@ Domain Path: /languages
                 </div>
               </div>
             </div>';
-		
+
+		wp_enqueue_style( 'callout-plugin-css' );
 		
 		return $output; 
 	}
