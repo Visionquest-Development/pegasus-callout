@@ -14,7 +14,6 @@
 		text-align: center;
 		white-space: nowrap;
 		vertical-align: middle;
-		-ms-touch-action: manipulation;
 		touch-action: manipulation;
 		cursor: pointer;
 		-webkit-user-select: none;
@@ -30,31 +29,31 @@
 		background-color: #e6e6e6;
 		border-color: #adadad;
 	}
-	
+
 	/*======================
 		CALLOUT CSS
 	======================*/
-	
+
 	.callout_container {
-	  
-	  background-repeat: no-repeat;
-	  background-size: cover;
+
+	  background-repeat: no-repeat !important;
+	  background-size: cover !important;
 	  display: inline;
 	  float: left;
 	  width: 100%;
-	  position:relative; 
-	  margin-bottom: 10px; 
+	  position:relative;
+	  margin-bottom: 10px;
 	}
 	.callout {
 	  display: inline;
-	  float: left;
+	  /* float: left; */
 	  padding: 60px 20px 50px 20px;
-	 
+
 	  text-align: center;
 	  width: 100%;
 	}
 
-	.callout p > span { 
+	.callout p > span {
 	  margin-right: 5px;
 	}
 	.callout_btn{
