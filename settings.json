@@ -1,0 +1,58 @@
+{
+  "rows": [
+    {
+      "section_name": "Callout Settings",
+      "rows": [
+        {
+          "name": "Background",
+          "attribute": "background",
+          "options": "Your Background",
+          "description": "The background of the callout",
+          "example": "background=\"../download_bg.png\""
+        },
+        {
+          "name": "Background Color",
+          "attribute": "backgroundcolor",
+          "options": "Your Background Color",
+          "description": "The background color of the callout",
+          "example": "background=\"#ffffff\""
+        },
+        {
+          "name": "Button",
+          "attribute": "button",
+          "options": "Your Button",
+          "description": "Show the button in the middle?",
+          "example": "button=\"yes\""
+        },
+        {
+          "name": "Color",
+          "attribute": "color",
+          "options": "Your Text Color",
+          "description": "The text color of the callout",
+          "example": "color=\"white\""
+        },
+        {
+          "name": "External",
+          "attribute": "external",
+          "options": "Your External Link",
+          "description": "This option s for the button to make the link open in a new tab",
+          "example": "external=\"yes\""
+        },
+        {
+          "name": "Link",
+          "attribute": "link",
+          "options": "Your link",
+          "description": "Link to URL",
+          "example": "link=\"http://example.com\""
+        },
+        {
+          "name": "Link Text",
+          "attribute": "link_text",
+          "options": "Your Link Text",
+          "description": "The link text of the callout button",
+          "example": "link_text=\"Your Title\""
+        }
+      ]
+    }
+  ]
+}
