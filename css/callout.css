@@ -24,7 +24,9 @@
 		border: 1px solid transparent;
 		border-radius: 4px;
 	}
-	.boost-btn:hover,  .boost-btn: focus,  .boost-btn:active {
+	.boost-btn:hover,
+  .boost-btn:focus,
+  .boost-btn:active {
 		color: #333;
 		background-color: #e6e6e6;
 		border-color: #adadad;
@@ -38,19 +40,19 @@
 
 	  background-repeat: no-repeat !important;
 	  background-size: cover !important;
-	  display: inline;
+	  /*display: inline;
 	  float: left;
-	  width: 100%;
+	  width: 100%;*/
 	  position:relative;
 	  margin-bottom: 10px;
 	}
 	.callout {
-	  display: inline;
+	  /*display: inline;*/
 	  /* float: left; */
 	  padding: 60px 20px 50px 20px;
 
 	  text-align: center;
-	  width: 100%;
+	  /*width: 100%;*/
 	}
 
 	.callout p > span {
@@ -58,4 +60,19 @@
 	}
 	.callout_btn{
 	  margin-top: 36px;
+
 	}
+
+  .btn-default {
+    border: 2px solid #333;
+    padding: 7px 10px;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 7px;
+  }
+
+  .btn {
+    --bs-btn-border-color: #333;
+  }

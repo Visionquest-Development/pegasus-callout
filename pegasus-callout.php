@@ -255,14 +255,14 @@ Domain Path: /languages
 			$output .= "<div class='callout_container' style='color: {$a['color']}; background: {$bkg_color};'>";
 		}
 
-        $output .= "<div class=''>
-                <div class=''>
-                  <div class='callout'>";
+        $output .= "<div class=''>";
+                $output .= "<div class=''>";
+                  $output .= "<div class='callout'>";
 
-                    $output .= $content;
+					$output .= wp_kses_post($content);
 					//$output .= '<a href ="http://example.com" class="                    btn btn-default"> Link Text </a>';
 
-					if($button === 'yes') {
+					if($button === 'yes' || $button === 'true' || $button === true ) {
 						$output .= '<a href ="' . $link . '" class="btn btn-default" ';
 						if($external === 'yes') {
 							$output .= ' target="_blank" ';
@@ -277,10 +277,10 @@ Domain Path: /languages
 						$output .= '</a>';
 					}
 
-                $output .= '</div>
-                </div>
-              </div>
-            </div>';
+                $output .= '</div>';
+                $output .= "</div>";
+              $output .= "</div>";
+            $output .= "</div>";
 
 		wp_enqueue_style( 'callout-plugin-css' );
 

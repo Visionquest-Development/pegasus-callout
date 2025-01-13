@@ -13,16 +13,16 @@
         {
           "name": "Background Color",
           "attribute": "backgroundcolor",
-          "options": "Your Background Color",
+          "options": "hex color code, rgb value, or rgba value",
           "description": "The background color of the callout",
           "example": "background=\"#ffffff\""
         },
         {
           "name": "Button",
           "attribute": "button",
-          "options": "Your Button",
+          "options": "yes, true, false, no",
           "description": "Show the button in the middle?",
-          "example": "button=\"yes\""
+          "example": "button=\"true\""
         },
         {
           "name": "Color",
